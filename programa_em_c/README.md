@@ -29,7 +29,7 @@ Criar um programa em C, utilizando a biblioteca oficial do fabricante (Bosch) pa
 4. Executar:
 
 ```
-    bin/bin
+    $ bin/bin
 ```
 
 ## Resultado Esperado
