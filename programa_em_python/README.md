@@ -4,7 +4,7 @@
 
 Criar um programa em Python que leia as 3 grandezas (Temperatura, Umidade e Pressão) do sensor BME280 e as apresente no display utilizando 2 casas decimais e sendo atualizadas a cada 1 segundo.
 
-## Dependências:
+## Dependências
 
 1. Utilizar as bibliotecas: **_smbus2_** (I2C) e **_bme280_** (Sensor)
 
@@ -45,4 +45,4 @@ O sensor está no endereço 0x76 do barramento I2C enquanto o Display LCD está 
 
 ## Resultado Esperado
 
-- é impresso no display, a cada segundo, os valores aferidos para temperatura, pressão e humidade.
+- mostrar no display os valores aferidos para temperatura, pressão e humidade.

@@ -55,8 +55,8 @@ sensor BME280 e as apresente no display utilizando 2 casas decimais e sendo atua
 1. Utilizar as bibliotecas: **_smbus2_** (I2C) e **_bme280_** (Sensor)
 
     ```bash
-        pip3 install smbus
-        pip3 install RPi.bme
+    pip3 install smbus
+    pip3 install RPi.bme
     ```
 
 2. Biblioteca para escrita no Display LCD:

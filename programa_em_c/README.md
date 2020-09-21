@@ -38,6 +38,6 @@ Criar um programa em C, utilizando a biblioteca oficial do fabricante (Bosch) pa
 
 ## Resultado Esperado
 
-- é impresso no terminal, a cada segundo, os valores aferidos para temperatura, pressão e humidade;
+- imprimir no terminal os valores aferidos para temperatura, pressão e humidade;
 
-- é registrado, a cada 10 aferições, no arquivo data.csv a média dos valores, além da data (YYYY-MM-DD) e hora do registro (hh:mm:ss).
+- registrar, a cada 10 aferições, a média dos valores no arquivo `data/data.csv`, além da data `YYYY-MM-DD` e hora do registro `hh:mm:ss`.
