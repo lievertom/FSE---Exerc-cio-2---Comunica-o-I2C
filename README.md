@@ -25,8 +25,7 @@ A placa que contém o sensor BME280 deste exercício possui suporte exclusivo ao
 protocolo I2C e opera com tensão de 5V. Portanto, para a interface com a placa Raspberry Pi que
 opera em tensão de 3.3V será necessário o uso de um conversor lógico bidirecional de 3.3V/5V.
 
-**Datasheet** : https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-
-bme280-ds002.pdf
+**Datasheet:**  <https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf>
 
 ### 2.2 Display LCD 16x2
 
@@ -55,24 +54,23 @@ sensor BME280 e as apresente no display utilizando 2 casas decimais e sendo atua
 
 1. Utilizar as bibliotecas: **_smbus2_** (I2C) e **_bme280_** (Sensor)
 
-```
-    pip3 install smbus
-    pip3 install RPi.bme
-```
+    ```bash
+        pip3 install smbus
+        pip3 install RPi.bme
+    ```
 
 2. Biblioteca para escrita no Display LCD:
-    - https://gist.github.com/DenisFromHR
+
+    - <https://gist.github.com/DenisFromHR>
 
 O sensor está no endereço 0x76 do barramento I2C enquanto o Display LCD está no endereço
 0x27. Isso pode ser verificado através do comando: **i2detect -y 1**
 
 ## 4.2 - Programa em C
+
 Criar um programa em C, utilizando a biblioteca oficial do fabricante (Bosch) para realizar a
 medida das 3 grandezas (Temperatura, Umidade e Pressão) a cada 1 segundo e registrar, a cada
 10 segundos, a média das amostras em um arquivo em formato CSV registrando data e hora de
 cada registro.
 
-Repositório da Bosch: https://github.com/BoschSensortec/BME280_driver
-
-
-
+**Repositório da Bosch:** <https://github.com/BoschSensortec/BME280_driver>
